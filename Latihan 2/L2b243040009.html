@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>Input Data Mahasiswa</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>INPUT DATA MAHASISWA</h2>
+        <form id="studentForm">
+            <table class="data-table">
+                <tr>
+                    <td>Username</td>
+                    <td>:</td>
+                    <td><input type="text" id="username" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td>Fullname</td>
+                    <td>:</td>
+                    <td><input type="text" id="fullname" required></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td>:</td>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>:</td>
+                    <td>
+                        <select id="agama" required>
+                            <option value="">--Pilih Agama--</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki
+                        <input type="radio" name="jenis_kelamin" value="Perempuan" required> Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="hobi" value="Musik"> Musik
+                        <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+                        <input type="checkbox" name="hobi" value="Gaming"> Gaming
+                        <input type="checkbox" name="hobi" value="Lainnya"> Lainnya
+                    </td>
+                </tr>
+                <tr>
+                    <td>Profil singkat</td>
+                    <td>:</td>
+                    <td><textarea id="profil_singkat" rows="4" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: right;">
+                        <input type="submit" value="Input">
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.data-table th, .data-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.data-table th {
+    background-color: #f0f0f0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+</style>
