@@ -1,0 +1,46 @@
+body {
+    background-image:url(background.png);
+}
+h1 {
+    font-family: comic sans ms;
+     color: darkblue;
+    font-size: 60px;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-style: italic;
+    font-family:georgia;
+}
+h3 {
+    font-family: georgia;
+    text-align: center;
+.a1 {
+    color:red;
+    font-family: georgia;
+    font-variant: small-caps;
+    
+.a2 {
+    color: blue;
+}   
+}
+}
+.p1 { 
+font-family: georgia;
+text-align: center;
+color: orangered;
+}
+.p2 {
+    font-family: Georgia;
+    text-align: center;
+}
+.a1:hover {
+    color:red ;
+    text-decoration: none;
+}
+.a2:hover{
+    color:aliceblue;
+    background-color: blue;
+    
+
+}

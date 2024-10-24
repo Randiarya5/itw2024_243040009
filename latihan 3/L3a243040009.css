@@ -1,0 +1,17 @@
+body {background-color: aqua;}
+h1 {
+    font-family: comic sans ms;
+     color: darkblue;
+    font-size: 60px;
+}
+h4 {
+    text-align: right;
+    font-style: italic;
+    font-family:georgia;
+}
+h3 {
+    font-family: georgia;
+}
+p { font-family: georgia;
+   text-align: justify;
+}      

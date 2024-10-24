@@ -1,0 +1,44 @@
+body {background-color: aqua;}
+h1 {
+    font-family: comic sans ms;
+     color: darkblue;
+    font-size: 60px;
+    text-align: center;
+}
+h4 {
+    text-align: right;
+    font-style: italic;
+    font-family:georgia;
+}
+h3 {
+    font-family: georgia;
+.a1 {
+    color:white;
+    font-family: georgia;
+    font-variant: small-caps;
+.a2 {
+    color: blue;
+}
+    
+    
+}
+}
+.p1 { 
+font-family: georgia;
+text-align: center;
+color: orangered;
+}
+.p2 {
+    font-family: Georgia;
+    text-align: center;
+}
+.a1:hover {
+    color:red ;
+    text-decoration: none;
+}
+.a2:hover{
+    color:aliceblue;
+    background-color: blue;
+    
+
+}
